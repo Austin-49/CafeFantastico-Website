@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="en">
+<head>
+
+<!-- 	Created by: Joel Schwabe
+		Created on: April 27th, 2014<br />
+--> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE-9" />
+<meta name= "New Customer Test" content= "This is a test website for comp199" />
+<title>Add Customer</title>
+<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+
+<body>
+<div id="row">
+
+	   	<form name = "menuorder" formmethod = "post" id = "formbox" action = "processform.php">
+            	<fieldset>
+            	<legend>Enter Information:</legend>
+				
+                <div class= "row"> 
+                <span class= "form_element"> 
+                <label>First Name:</label>
+                <input type= "text" name ="firstname"
+                	required id= "firstname"
+                    placeholder= "">
+                    </span>
+                    </div>
+                  <br>
+				  
+                 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Last Name:</label>
+                <input type= "text" name= "lastname"
+                	required id= "lastname"
+                    placeholder= "">
+                     </span>
+                    </div>
+                    <br>
+					
+				 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Street Number:</label>
+                <input type= "text" name= "streetNum"
+                	required id= "streetNum"
+                    placeholder= "">
+                     </span>
+                    </div>
+                    <br>
+					
+				<div class= "row"> 
+                <span class= "form_element"> 
+                <label>Street Name:</label>
+                <input type= "text" name= "streetName"
+                	required id= "streetName"
+                    placeholder= "">
+                     </span>
+                    </div>
+                    <br>
+					
+				<div class= "row"> 
+                <span class= "form_element"> 
+                <label>City:</label>
+                <input type= "text" name= "city"
+                	required id= "city"
+                    placeholder= "">
+                     </span>
+                    </div>
+                    <br>
+					
+					<div class= "row"> 
+                <span class= "form_element"> 
+                <label>Province:</label>
+                <input type= "text" name= "province"
+                	required id= "province"
+                    placeholder= "BC" 
+					pattern= '[A-Z]{2}'>
+                     </span>
+                    </div>
+                    <br>
+					
+				 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Postal Code:</label>
+                <input type= "text" name= "postal"
+                	required id= "postal"
+                    placeholder= "X1X2X2"
+					pattern= '[A-Z]{1}\d{1}[A-Z]{1}\d{1}[A-Z]{1}\d{1}'>
+                     </span>
+                    </div>
+                    <br>
+					
+				 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Phone Number:</label>
+                <input type= "tel" name= "phone"
+                	required id= "phone"
+                    placeholder= "2509999999"
+                    title="2509999999"
+                    pattern= '\d{10}'>
+                     </span>
+                    </div>
+                    <br>
+					
+                 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Email:</label>
+                <input type= "email" name= "email"
+                	required id= "email"
+                    placeholder= "you@example.com">
+                     </span>
+                    </div>
+                   <br>
+
+                 <div class= "row"> 
+                <span class= "form_element"> 
+                <label>Password</label>
+                <input type= "password" name= "password"
+                	required id= "password"
+                    placeholder= "*********">
+                     </span>
+                    </div>
+                   <br>
+				<div class= "row"> 
+				<span class= "form_element"> 
+				<button class="submit" type="submit" name="submit">Confirm and Submit</button>
+				<button class="remove" type="submit" name="close" onclick="removeForm()">Close Form </button>  		
+
+				   </span>
+                   </div>
+
+                 <br>
+
+        </form>
+        
+
+
+</div> <!-- end div popin -->
+
+</body>
+</html>

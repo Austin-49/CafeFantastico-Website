@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS style for the entire form */
+
+#formbox {width: 330px;
+			background-color: #1F1F20;
+			border: 2px #333;
+			padding: 3px;
+			margin: 0px auto;
+			}
+/* CSS style for each row in the form. */
+
+
+div.row {
+			clear: both;
+			padding-top: 8px;
+			color: white;
+		}
+
+/* CSS style for the left side of the form */
+div.row span.form_label {
+						float: left;
+						width: 100px;
+						text-align:right;
+						}
+
+
+
+/* CSS style for the right side of the form */
+div.row span.form_element {
+							float: right;
+							width: 280px;
+							text-align: left;
+							}

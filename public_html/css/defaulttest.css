@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+    /*height:100%;*/
+}
+body 		{
+               		
+                		height: 100%;/*
+                		margin: 0 auto;
+                		padding: 0;*/
+						background-color:#060606;
+						
+            		}
+				/*				
+body			{
+					position: relative;
+					}*/
+header 		{ 	background-color:#1F1F20;								
+				border: solid 3px black;
+				height: 85px;
+				width: 100%; 
+				position:fixed;
+				z-index:5;
+			}
+		
+		  
+header h1 		{  	text-align: center;
+				font-family: "Times New Roman", Times, serif;
+				font-size: 36px;
+				color: white; 
+				position: absolute;
+				top: 50%;
+				height: 2em;
+				width: 100%;
+				margin-top: -0.6em;
+				
+				a.pagelink:link 	{ color: blue;   }
+				a.pagelink:visited  { color: purple;    }
+				a.pagelink:hover    { color: white; }
+				a.pagelink:active   { color: #3C0;   }
+			}
+				   
+
+#loginsplash 		{	margin-right:50px; 
+				color:white;
+				top: 55%;
+position: relative;
+				/*position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 280px; 	
+				height: 150px;*/					
+			}
+
+#shoppingCartDisplay    {	 
+				color:white;
+				position: fixed;
+				top: 220px;
+				/*float: right;*/
+				right: 60px;
+				width: auto; 	
+				height: 400px;
+				z-index:1002;
+				overflow: auto;				
+			} 
+#logindisplay    	{	/*float: right;*/ 
+					position: fixed;
+					z-index:1002;
+					/*overflow: auto;
+				color:blue;
+				position: fixed;*/
+				top: 220px;
+				left: 195px;
+				width: 250px; 	
+				height: 400px;*/					
+			} 
+			
+#addToCartDisplay    {	color:white;
+				position: fixed;
+				top: 160px;
+				left: 5px;
+				width: 200px; 	
+				height: 60px;					
+			}				
+
+
+#cookiesplash 	{	float: middle; 
+				color:white;
+				position: relative
+				top: 100px;
+				left: 5px;
+				width: 200px; 	
+				height: 20px;					
+			} 
+
+
+
+#productBoxLeft		{ border: solid 1px black;
+				width: 200px;
+				float: left;
+				
+
+			}
+#productBoxRight		{ border: solid 1px black;
+				margin-left: 300px;
+
+			}
+
+#aboutUsDesc		{	margin-right:50px; 
+				color:white;
+				position: fixed;
+				top: 90px;
+				left: 700px;
+				width: 500px; 	
+				height: 1000px;
+			}
+
+
+#navigation		{	position: absolute;
+				top: 120px;
+				height: 2.5em;
+				margin-top: -1.25em;
+  				border-top: 1px solid #000000;
+				border-left: 1px solid #000000;
+				border-bottom: 1px solid #000000;
+				border-right: 1px solid #000000;
+   				background: #ffffff;
+   				background: -webkit-gradient(linear, left top, left bottom, from(#ababab), to(#ffffff));
+   				background: -webkit-linear-gradient(top, #ababab, #ffffff);
+   				background: -moz-linear-gradient(top, #ababab, #ffffff);
+   				background: -ms-linear-gradient(top, #ababab, #ffffff);
+  				background: -o-linear-gradient(top, #ababab, #ffffff);
+   				padding: 7px 14px;   				
+				/*
+				-webkit-border-radius: 11px;
+   				-moz-border-radius: 11px;
+   				border-radius: 11px;
+				*/
+   				color: #000000;
+   				font-size: 18px;
+   				font-family: Helvetica, Arial, Sans-Serif;
+   				text-decoration: none;
+   				vertical-align: middle;
+			}
+
+#navigation:active   {	border-top-color: #292629;
+   			   	background: #292629;
+   			}
+
+#navigation:hover	{	border-top-color: #050101;
+   				background: #050101;
+   				color: #ffffff;
+   			}
+
+#leftbox		{	background-color:#1F1F20;
+				border: solid 3px black;
+				width: 200px;
+				float:left;
+				min-height: 100%;
+				/*min-height: 600px;
+    /*height: auto !important;*/
+    height: 100%;
+	
+
+				
+
+			}
+
+#rightbox		{	background-color:#1F1F20;
+				border: solid 3px black;
+				width: 200px;
+				float: right;
+				height: 100%;
+
+			}
+			
+#productbox		{
+					width: 545px;
+				height: 100%;
+				display:inline;
+				float: left;
+				background-color:#34343A;
+				left: 200px;
+				
+				position:relative;
+				}
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+
+
+
+#container 		{width: 960px;
+				height: 100%;
+				margin: 0 auto;
+				overflow:auto;
+				/*position: fixed;*/
+				}
+				
+#topcontainer   {width:960px;
+				position:relative;
+				margin:0;
+				height: 212px;
+				}
+				
+#topcontent		{width: 958px;
+				height: 210px;
+				border:2px solid black;
+				background-color: LightGrey;
+				z-index: 5;
+				position:fixed; 
+				top: 0px;
+				
+			
+	/*top: 0; 
+	/*left: 0; 
+	right: 0; */
+	margin: 0 auto;
+				}
+
+#displaycontent { width: 960px;
+			/* remove if problems*/
+			height: 100%;
+			overflow: auto;
+			background-color:#1F1F20;
+			/*background-color:#34343A;*/
+			
+		}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+#grid {
+	display:inline;
+	/*z-index:4;*/
+	/*position: relative;
+	margin-left: 10.0px;
+	margin-right: 10.0px;*/
+	border:5px solid white;
+	width: 258px;
+	height: 400px;
+	text-overflow: clip;
+	float:left;
+	margin: 2px 2px 2px 2px;
+	color: white;
+	text-align:center
+	
+	
+	
+	/*
+	white-space: nowrap;
+	overflow: hidden;
+*/
+}
